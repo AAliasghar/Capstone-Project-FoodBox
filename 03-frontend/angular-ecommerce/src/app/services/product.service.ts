@@ -50,12 +50,30 @@ export class ProductService {
     return this.httpClient.get<Product>(productUrl);
   }
 
+  // Method for Pagination
+  getProductListPaginate(thePage:number,
+                         thePageSize: number, 
+                         theCategoryId: number): Observable<GetResponseProducts> {
+
+    //  build URL based on category id , page, size
+    const searchUrl = `${this.baseUrl}/search/findByCategoryId?id=${theCategoryId}`
+                     + `&page=${thePage}&size=${thePageSize}`;       
+
+    return this.httpClient.get<GetResponseProducts>(searchUrl);
+  }
+
 }
 
-// Received from Spring REST JSON 
+// Received from Spring REST API JSON 
 interface GetResponseProducts {
   _embedded: {
     products: Product[];
+  }, 
+  page:{
+    size: number,
+    totalElements: number,
+    totalPages: number,
+    number: number
   }
 }
 
