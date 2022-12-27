@@ -283,7 +283,7 @@ input.au-input.au-input-xl{
     position:relative;
     right:0;
     min-width:95px;
-    color:#fff;
+    color:rgb(255, 255, 255);
     border:1px solid #205b8d;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
@@ -292,7 +292,7 @@ input.au-input.au-input-xl{
 }
 
 .au-btn-submit:hover{
-    background:#1846c5
+    background:#365cc7
 }
 
 .au-btn-submit>i{
@@ -567,11 +567,11 @@ input.au-input.au-input-xl{
  */
 
 .form-area{
-    background:#e5e5e5;
+    background:#e9dcb7;
     position:relative;
     margin-bottom:45px;
     padding:50px 20px;
-    border:3px solid #ccc
+    border:1px solid #ccc
 }
 .form-area h3{
     position:absolute;
@@ -738,21 +738,21 @@ table.table.table-bordered th{
 
  .btn-info{
     color:#fff;
-    background-color:#e4e40d!important;
+    background-color:#2973fc!important;
     border-color:#0da8e4!important
 }
 a.primary-btn{
-    background:#ccb00e;
+    background:#044158;
     padding:7px 20px;
     text-align:center;
     display:inline-block;
-    color:rgb(207, 177, 8);
+    color:#044158;
     border-radius:2px;
     font-size:14px;
     margin-top:5px
 }
 a.primary-btn:hover{
-    background:#0da8e4;
+    background:#1ab0eb;
     color:#fff
 }
 
@@ -944,7 +944,7 @@ footer ul li{
         margin-right:15px
     }
         .main-content.page-m{
-        padding:10% 0!important
+        padding:10% 30% 10% 5%
     }
     .header-mobile .navbar-mobile{
         display:none;
@@ -991,12 +991,12 @@ footer ul li{
         position:relative;
         right:10px;
         min-width:85px;
-        color:rgb(211, 164, 12);
+        color:rgb(10, 63, 179);
         border:1px solid #d4c115;
         -webkit-border-radius:3px;
         -moz-border-radius:3px;
         border-radius:0;
-        background:#dbcd0a
+        background:#bcdb0a
     }
     input.au-input.au-input-xl{
         border-radius:0!important;
