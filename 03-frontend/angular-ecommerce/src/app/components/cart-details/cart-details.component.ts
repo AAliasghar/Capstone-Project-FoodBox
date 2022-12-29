@@ -12,7 +12,7 @@ export class CartDetailsComponent implements OnInit {
   cartItems: CartItem[] = [];
   totalPrice: number = 0;
   totalQuantity: number = 0;
-
+  
   constructor(private cartService: CartService) { }
 
   ngOnInit(): void {
@@ -49,5 +49,7 @@ export class CartDetailsComponent implements OnInit {
   removeItem(theCartItem: CartItem) {
     this.cartService.removeItem(theCartItem); 
   }
+
+ 
 
 }
