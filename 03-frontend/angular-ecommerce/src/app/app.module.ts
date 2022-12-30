@@ -15,8 +15,11 @@ import { CartDetailsComponent } from './components/cart-details/cart-details.com
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ChekoutFormComponent } from './components/chekout-form/chekout-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
 
 const routes: Routes = [
+  { path: 'login-page', component: LoginPageComponent },
   {path: 'checkout-form', component: ChekoutFormComponent },
   {path: 'cart-details', component: CartDetailsComponent},
   {path: 'products/:id', component: ProductDetailsComponent},
@@ -37,7 +40,9 @@ const routes: Routes = [
     ProductDetailsComponent,
     CartStatusComponent,
     CartDetailsComponent,
-    ChekoutFormComponent
+    ChekoutFormComponent,
+    LoginComponent,
+    LoginPageComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

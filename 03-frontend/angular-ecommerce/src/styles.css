@@ -214,6 +214,15 @@ section{
     padding:0 30px
 }
 
+.au-input-x2{
+    min: width 300px;
+}
+
+input.au-input.au-input-x2{
+    border-radius:20px!important;
+     margin-right:1255px
+}
+
 .au-input-xl{
     min-width:935px
 }
@@ -307,6 +316,42 @@ input.au-input.au-input-xl{
     -o-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%)
 }
+
+.au-btn-login{
+    position:relative;
+    right:0;
+    min-width:95px;
+    color:rgb(255, 255, 255);
+    border:2px solid #205b8d;
+    -webkit-border-radius:3px;
+    -moz-border-radius:5px;
+    border-radius:43px;
+    background:#205b8d
+}
+
+.au-btn-login:hover{
+    background:#365cc7
+}
+
+.au-btn-login>i{
+    font-size:30px;
+    color:#fff;
+    position:absolute;
+    top:60%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
 
 /* 
  * ----------------------------
