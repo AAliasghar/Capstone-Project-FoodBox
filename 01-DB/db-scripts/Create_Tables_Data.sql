@@ -43,7 +43,41 @@ AUTO_INCREMENT = 1;
 -- Add sample data
 -- -----------------------------------------------------
 
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('-1000', 'Dosa', 'Vegeterian',
+'assets/images/products/Dosa.png'
+,1,100,5.99,1, NOW());
 
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('-1001', 'Idli', 'Vegeterian',
+'assets/images/products/Idli.png'
+,1,100,10.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('-1002', 'Dosa Double', 'Vegeterian',
+'assets/images/products/Dosa Double.png'
+,1,100,15.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('-1003', 'Panjabi', 'Non-Vegeterian',
+'assets/images/products/Panjabi.png'
+,1,100,15.99,2, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('-1004', 'Samosa', 'Non-Vegeterian',
+'assets/images/products/Samosa.png'
+,1,100,5.99,2, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('-1005', 'Thali', 'Non-Vegeterian',
+'assets/images/products/Thali.png'
+,1,100,18.99,2, NOW());
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
 unit_price, category_id, date_created)
 VALUES ('-1000', 'Dosa', 'Vegeterian',
@@ -103,8 +137,8 @@ CREATE TABLE `country` (
 --
 
 INSERT INTO `country` VALUES 
-(1,'IN','India'),
-(2,'DE','Germany'),
+(1,'DE','Germany'),
+(2,'IN','India'),
 (3,'US','United States');
 
 --
