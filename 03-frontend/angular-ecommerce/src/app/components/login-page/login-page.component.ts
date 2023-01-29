@@ -15,7 +15,7 @@ export class LoginPageComponent implements OnInit {
   }
 
   success(){
-     alert("success!");
+     alert("Success!");
   }
   
   
