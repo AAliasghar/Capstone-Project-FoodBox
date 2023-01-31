@@ -11,7 +11,7 @@ import java.util.Set;
 @Data
 public class Purchase {
 
-    private Customer customer;
+    private Customer customers;
     private Address shippingAddress;
     private Address billingAddress;
     private Order order;
